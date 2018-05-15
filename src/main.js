@@ -8,7 +8,7 @@ import VueAxios from 'vue-axios'
 
 import * as config from './config.js'
 
-axios.defaults.baseURL = process.env.ENDPOINT_FLICKR_PHOTOS
+axios.defaults.baseURL = process.env.VUE_APP_ENDPOINT
 Vue.use(VueAxios, axios)
 
 import VueAnalytics from 'vue-ua'
