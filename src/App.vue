@@ -17,7 +17,7 @@
                     </ul>
                 </div>
                 <div class="image filtered span-1-75" data-position="25% 25%">
-                    <img src="/lily.jpg" alt=""/>
+                    <img src="/lily-min.jpg" alt=""/>
                 </div>
             </section>
 
@@ -32,7 +32,7 @@
                         Git or learning Serverless . </p>
                 </div>
                 <div class="image filtered tinted" data-position="top left">
-                    <img src="/green-little-bee-eater.jpg" alt="Senegal green little bee eater bird"/>
+                    <img src="/green-little-bee-eater-min.jpg" alt="Senegal green little bee eater bird"/>
                 </div>
             </section>
 
@@ -65,7 +65,7 @@
                         morning into a soulless office and spend there my day, therefore I'm writing my own future.</p>
                 </div>
                 <div class="image filtered tinted" data-position="top right">
-                    <img src="/mandala.jpg" alt=""/>
+                    <img src="/mandala-min.jpg" alt=""/>
                 </div>
             </section>
 
