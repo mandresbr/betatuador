@@ -24,52 +24,50 @@
 
 <script>
 export default {
-  name: "contact",
+  name: 'contact',
   data() {
     return {
-      name: "",
-      email: "",
-      message: "",
-      response: ""
-    };
+      name: '',
+      email: '',
+      message: '',
+      response: ''
+    }
   },
   methods: {
     submit: function() {
-     this.axios 
-        .post("messages", {
-          params: {
-            name: this.name,
-            email: this.email,
-            message: this.message
-          }
+      this.axios
+        .post('messages', {
+          name: this.name,
+          email: this.email,
+          message: this.message
         })
         .then(() => {
-          this.response = "Message sent correctly!";
+          this.response = 'Message sent correctly!'
 
-          this.name = "";
-          this.email = "";
-          this.message = "";
+          this.name = ''
+          this.email = ''
+          this.message = ''
         })
         .catch(error => {
           if (error.response) {
             // The request was made and the server responded with a status code
             // that falls out of the range of 2xx
-            this.response = error.response.data.error;
-            console.log(error.response.status);
-            console.log(error.response.headers);
+            this.response = error.response.data.error
+            console.log(error.response.status)
+            console.log(error.response.headers)
           } else if (error.request) {
             // The request was made but no response was received
             // `error.request` is an instance of XMLHttpRequest in the browser and an instance of
             // http.ClientRequest in node.js
-            console.log(error.request);
+            console.log(error.request)
           } else {
             // Something happened in setting up the request that triggered an Error
-            console.log("Error", error.message);
+            console.log('Error', error.message)
           }
-          console.log(error.config);
-        });
+          console.log(error.config)
+        })
     }
   }
-};
+}
 </script>
 
