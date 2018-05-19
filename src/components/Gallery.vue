@@ -32,6 +32,7 @@
     methods: {
       fetchData () {
         this.axios.get('photos').then((response) => {
+          console.log(response)
           this.photos = response.data
         })
       }
