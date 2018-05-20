@@ -93,6 +93,7 @@
           or just hiking in the mountains.
             <br>Checkout my photos at <a 
               href="https://www.flickr.com/photos/enric-bisbe" 
+              rel="noreferrer"
               target="_blank">Flickr
               Photos</a></p>
         </div>
@@ -114,19 +115,23 @@
             <ul class="contact-icons color1">
               <li class="icon fa-linkedin"><a
                 href="https://www.linkedin.com/in/enric-bisbe-gil-a2742831/" 
+                rel="noreferrer"
                 target="_blank">Enric
                 Bisbe Gil</a>
               </li>
               <li class="icon fa-flickr"><a 
                 href="https://www.flickr.com/photos/enric-bisbe"
+                rel="noreferrer"
                 target="_blank">Enric Bisbe
                 Gil</a></li>
               <li class="icon fa-instagram"><a 
                 href="https://www.instagram.com/nricu/" 
+                rel="noreferrer"
                 target="_blank">@nricu</a>
               </li>
               <li class="icon fa-twitter"><a 
                 href="https://twitter.com/NricU" 
+                rel="noreferrer"
                 target="_blank">@NricU</a>
               </li>
             </ul>
