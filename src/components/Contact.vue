@@ -1,30 +1,51 @@
 <template>
-    <div class="span-3-25">
-        <form>
-            <div class="field" v-if="response" v-html="response"></div>
-            <div class="field half">
-                <label for="name">Name *</label>
-                <input v-model="name" type="text" name="name" id="name" placeholder="Write your name"/>
-            </div>
-            <div class="field half">
-                <label for="email">Email *</label>
-                <input v-model="email" type="email" name="email" id="email" placeholder="Write your email"/>
-            </div>
-            <div class="field">
-                <label for="message">Message *</label>
-                <textarea v-model="message" name="message" id="message" rows="4"
-                          placeholder="Write me a message"></textarea>
-            </div>
-            <ul class="actions">
-                <li><input type="button" @click="submit" value="Send Message" class="button special"/></li>
-            </ul>
-        </form>
-    </div>
+  <div class="span-3-25">
+    <form>
+      <div 
+        v-if="response" 
+        class="field" 
+        v-html="response"/>
+      <div class="field half">
+        <label for="name">Name *</label>
+        <input 
+          id="name" 
+          v-model="name" 
+          type="text" 
+          name="name" 
+          placeholder="Write your name">
+      </div>
+      <div class="field half">
+        <label for="email">Email *</label>
+        <input 
+          id="email" 
+          v-model="email" 
+          type="email" 
+          name="email" 
+          placeholder="Write your email">
+      </div>
+      <div class="field">
+        <label for="message">Message *</label>
+        <textarea 
+          id="message" 
+          v-model="message" 
+          name="message" 
+          rows="4"
+          placeholder="Write me a message"/>
+      </div>
+      <ul class="actions">
+        <li><input 
+          type="button" 
+          value="Send Message" 
+          class="button special" 
+          @click="submit"></li>
+      </ul>
+    </form>
+  </div>
 </template>
 
 <script>
 export default {
-  name: 'contact',
+  name: 'Contact',
   data() {
     return {
       name: '',
