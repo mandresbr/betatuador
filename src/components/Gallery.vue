@@ -4,7 +4,12 @@
     class="gallery">
     <div 
       class="modal" 
-      tabIndex="-1"><div class="inner"><img src="" ></div></div>
+      tabIndex="-1"><div class="inner">
+        <img 
+          src="" 
+          alt="Modal image">
+      </div>
+    </div>
     <div class="group span-3">
       <photo-gallery 
         :photo="photos[0]" 
