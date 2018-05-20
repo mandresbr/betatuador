@@ -1,11 +1,11 @@
 <template>
   <a 
-    :href="urlPhoto" 
+    :href="bigPhoto" 
     :class="classAtt" 
     data-position="bottom"
     @click="trackEvent(photo.title)">
     <img 
-      :src="urlPhoto" 
+      :src="smallPhoto" 
       :alt="photo.title" 
       :data-position="position">
   </a>
@@ -27,17 +27,23 @@ export default {
     }
   },
   computed: {
-    urlPhoto: function() {
-      return `https://farm${this.photo.farm}.staticflickr.com/${
-        this.photo.server
-      }/${this.photo.id}_${this.photo.secret}_b.jpg`
+    bigPhoto() {
+      return this.urlPhoto('b')
     },
-    classAtt: function() {
+    smallPhoto() {
+      return this.urlPhoto('z')
+    },
+    classAtt() {
       return 'image filtered ' + this.classSpan
     }
   },
   methods: {
-    trackEvent: function(name) {
+    urlPhoto(size) {
+      return `https://farm${this.photo.farm}.staticflickr.com/${
+        this.photo.server
+      }/${this.photo.id}_${this.photo.secret}_${size}.jpg`
+    },
+    trackEvent(name) {
       this.$ua.trackEvent('gallery-photo', 'click', name)
     }
   }
