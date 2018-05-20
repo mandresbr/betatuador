@@ -23,7 +23,7 @@
           data-position="25% 25%">
           <img 
             src="/lily-min.jpg" 
-            alt="">
+            alt="Myself reflected from a cat's eye">
         </div>
       </section>
 
@@ -81,7 +81,7 @@
           data-position="top right">
           <img 
             src="/mandala-min.jpg" 
-            alt="">
+            alt="Creating Mandalas with light">
         </div>
       </section>
 
