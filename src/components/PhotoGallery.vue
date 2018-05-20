@@ -28,7 +28,6 @@ export default {
   },
   computed: {
     urlPhoto: function() {
-      console.log(this.photo)
       return `https://farm${this.photo.farm}.staticflickr.com/${
         this.photo.server
       }/${this.photo.id}_${this.photo.secret}_b.jpg`

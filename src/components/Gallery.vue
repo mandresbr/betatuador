@@ -63,7 +63,6 @@ export default {
   methods: {
     fetchData() {
       this.axios.get('photos').then(({ data }) => {
-        console.log(data)
         this.photos = data
       })
     }
