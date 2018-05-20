@@ -18,4 +18,4 @@ Vue.use(VueAnalytics, {
 })
 new Vue({
   render: h => h(App)
-}).$mount('#app')
+}).$mount('#page-wrapper')
