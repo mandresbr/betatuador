@@ -6,12 +6,9 @@
 
       <!-- Panel (Banner) -->
       <section class="panel banner right">
-        <div class="content color0 span-3-75">
-          <h1 class="major">Hello, my name<br>
-            is Enric</h1>
-          <p>I'm a freelance <strong>Full-stack Developer</strong> with expertise in Laravel, MySQL, MongoDB,
-          Vue.js and TDD. I'm also passionate about new ideas or concepts involving development like
-          Serverless. </p>
+        <div class="content color4 span-3-75">
+          <h1 class="major">@Betatuador</h1>
+          <p>Soy un artista del <strong>tatuaje</strong> con experiencia en el estilo de sombras (black and grey) y realismo. Desempeño mi profesión en la ciudad de Cali, Colombia. Tengo 'x' certificaciones y 'x' años de experiencia tatuando.</p>
           <ul class="actions">
             <li><a 
               href="#first" 
@@ -22,7 +19,7 @@
           class="image filtered span-1-75" 
           data-position="25% 25%">
           <img 
-            src="/lily-min.jpg" 
+            src="https://instagram.fbog1-1.fna.fbcdn.net/vp/85f27f0600cca4272195d74a9f51f1a4/5C1CCB14/t51.2885-15/sh0.08/e35/s640x640/31757590_202699810528716_5937570176781254656_n.jpg" 
             alt="Myself reflected from a cat's eye">
         </div>
       </section>
@@ -32,18 +29,14 @@
         id="first" 
         class="panel spotlight medium left">
         <div class="content span-7">
-          <h2 class="major">My work</h2>
-          <p>I work from home with my own schedule. I use always the Pomodoro technique to focus on what I'm
-          doing and keeping track of every hour I spent working. In the past I worked with vagrant and now
-          I have my main project under docker containers to be able to have a Continuous integration
-          deployment with all tests. <br> I'm always trying to improve in some way like mastering Vi and
-          Git or learning Serverless . </p>
+          <h2 class="major">Mi Trabajo</h2>
+          <p>Trabajo fuertemente en nuevos proyectos día a día. Me actualizo con diversas técnicas del tatuaje en seminarios y capacitaciones. Tengo en mi estudio, todas las prestaciones de bioseguridad requeridas. Actualmente mi estilo se enfoca en la técnica de sombras o black and grey pero domino las demás técnicas a la perfección. </p>
         </div>
         <div 
           class="image filtered tinted" 
           data-position="top left">
           <img 
-            src="/green-little-bee-eater-min.jpg" 
+            src="/back2.jpg" 
             alt="Senegal green little bee eater bird">
         </div>
       </section>
@@ -51,9 +44,8 @@
       <!-- Panel -->
       <section class="panel color1">
         <div class="intro joined">
-          <h2 class="major">My self</h2>
-          <p>I love the balance in my life that travelling, photography, friends (with some beers), sports and
-          programming brings to myself.</p>
+          <h2 class="major">Un poco sobre mí</h2>
+          <p>Amo mi profesión, pero en mi tiempo libre me dedico a hacer deporte, viajar, compartir con mi familia y disfrutar de los pequeños placeres de la vida.</p>
         </div>
         <div class="inner">
           <ul class="grid-icons three connected">
@@ -69,7 +61,7 @@
       </section>
 
       <!-- Panel (Spotlight) -->
-      <section class="panel spotlight large right">
+     <!--  <section class="panel spotlight large right">
         <div class="content span-5">
           <h2 class="major">My future</h2>
           <p>I don't know everything and I'm really fine with that. But I'm not scared to take a step in any
@@ -83,56 +75,47 @@
             src="/mandala-min.jpg" 
             alt="Creating Mandalas with light">
         </div>
-      </section>
+      </section> -->
 
       <!-- Panel -->
       <section class="panel">
         <div class="intro color2">
-          <h2 class="major">My photography</h2>
-          <p>Enjoy my photos as much as I do shooting them. I like to go around with my camera while traveling
-          or just hiking in the mountains.
-            <br>Checkout my photos at <a 
-              href="https://www.flickr.com/photos/enric-bisbe" 
+          <h2 class="major">Tatuajes</h2>
+          <p>Conoce un poco de mi trabajo deleitándote con las obras de arte que he hecho. Mis tatuajes han sido premiados, galardonados y aclamados en mi ciudad. ¡Disfrutalos!
+            <br>Puedes ver más en: <a 
+              href="https://www.instagram.com/betatuador/" 
               rel="noreferrer"
-              target="_blank">Flickr
-              Photos</a></p>
+              target="_blank">@Betatuador</a></p>
         </div>
         <gallery/>
       </section>
 
       <!-- Panel -->
       <section class="panel color4-alt">
-        <div class="intro color4">
+        <!-- <div class="intro color4">
           <h2 class="major">My contact</h2>
           <p>If you want to share some ideas or hire me write a message. <br> Say just Hi!
           if you are shy. I won't bite. </p>
-        </div>
+        </div> -->
         <div class="inner columns divided">
-          <contact/>
+          
           <div class="span-1-5">
-            <h2 class="major">Follow me</h2>
+            <h2 class="major">Sígueme</h2>
 
             <ul class="contact-icons color1">
-              <li class="icon fa-linkedin"><a
-                href="https://www.linkedin.com/in/enric-bisbe-gil-a2742831/" 
+              <li class="icon fa-instagram"><a 
+                href="https://www.instagram.com/betatuador/" 
                 rel="noreferrer"
-                target="_blank">Enric
-                Bisbe Gil</a>
+                target="_blank">@betatuador</a>
               </li>
               <li class="icon fa-flickr"><a 
-                href="https://www.flickr.com/photos/enric-bisbe"
+                href="#"
                 rel="noreferrer"
-                target="_blank">Enric Bisbe
-                Gil</a></li>
-              <li class="icon fa-instagram"><a 
-                href="https://www.instagram.com/nricu/" 
-                rel="noreferrer"
-                target="_blank">@nricu</a>
-              </li>
+                target="_blank">Betatuador</a></li>
               <li class="icon fa-twitter"><a 
-                href="https://twitter.com/NricU" 
+                href="#" 
                 rel="noreferrer"
-                target="_blank">@NricU</a>
+                target="_blank">@betatuador</a>
               </li>
             </ul>
           </div>
@@ -140,10 +123,7 @@
       </section>
 
       <!-- Copyright -->
-      <div class="copyright">&copy; Enric Bisbe Gil. Design: <a 
-        href="https://html5up.net" 
-        rel="nofollow">HTML5
-        UP</a>.
+      <div class="copyright">&copy; Mario Bolaños
       </div>
 
     </div>

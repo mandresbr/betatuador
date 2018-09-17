@@ -3,11 +3,11 @@ import App from './App.vue'
 
 Vue.config.productionTip = false
 
-import axios from 'axios'
-import VueAxios from 'vue-axios'
+//import axios from 'axios'
+//import VueAxios from 'vue-axios'
 
-axios.defaults.baseURL = process.env.VUE_APP_ENDPOINT
-Vue.use(VueAxios, axios)
+//axios.defaults.baseURL = process.env.VUE_APP_ENDPOINT
+//Vue.use(VueAxios, axios)
 
 import VueAnalytics from 'vue-ua'
 

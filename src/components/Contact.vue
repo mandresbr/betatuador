@@ -53,8 +53,8 @@ export default {
       message: '',
       response: ''
     }
-  },
-  methods: {
+  }//,
+/*  methods: {
     submit: function() {
       this.axios
         .post('messages', {
@@ -83,7 +83,7 @@ export default {
           }
         })
     }
-  }
+  }*/
 }
 </script>
 
