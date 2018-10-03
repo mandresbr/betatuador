@@ -19,8 +19,8 @@
           class="image filtered span-1-75" 
           data-position="25% 25%">
           <img 
-            src="https://instagram.fbog1-1.fna.fbcdn.net/vp/85f27f0600cca4272195d74a9f51f1a4/5C1CCB14/t51.2885-15/sh0.08/e35/s640x640/31757590_202699810528716_5937570176781254656_n.jpg" 
-            alt="Myself reflected from a cat's eye">
+            src="https://instagram.fbog1-2.fna.fbcdn.net/vp/0d86c92f41f73de172805bf5fa27903c/5C3EAC0D/t51.2885-15/e35/30855754_170333387131465_5651122830532673536_n.jpg" 
+            alt="Be profile">
         </div>
       </section>
 
